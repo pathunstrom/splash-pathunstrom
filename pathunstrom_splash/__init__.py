@@ -1,6 +1,6 @@
 from time import perf_counter
 
-from ppb import BaseScene
+from ppb import Scene
 from ppb import Image
 from ppb import Font
 from ppb import Sprite
@@ -13,7 +13,7 @@ from ppb.sprites import RectangleSprite
 text_opacity = int(255 * 0.8)
 
 
-class Splash(BaseScene):
+class Splash(Scene):
     background_color = 106, 48, 147
     run_time = 2
 
